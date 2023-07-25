@@ -1,0 +1,225 @@
+Rendering Effects
+Fluid Particles/SPH
+https://developer.download.nvidia.cn/presentations/2008/GDC/GDC08_ParticleFluids.pdf   NVIDIA Particle-base fluid simulation
+https://www.youtube.com/watch?v=L_gGzZnJkh0   NVIDIA Real Time Fluid Simulation - Particles | GDC 2017
+https://www.youtube.com/watch?v=gJMBEvYEfJI   Real-Time Fluid Simulation in Shadow of the Tomb Raider / Peter Sikachev, Eidos Montreal - YouTube
+Depth buffer tricks
+https://nlguillemot.wordpress.com/2016/12/07/reversed-z-in-opengl/     Reversed-Z in OpenGL | nlguillemot)
+https://outerra.blogspot.com/2012/11/maximizing-depth-buffer-range-and.html  Maximizing Depth Buffer Range and Precision
+https://developer.nvidia.com/content/depth-precision-visualized     Depth Precision Visualized 
+https://www.intel.com/content/www/us/en/developer/overview.html    Early Z Rejection | Intel® Software 
+https://www.gamedev.net/forums/topic/607678-z-prepass/   Z PrePass - Graphics and GPU Programming - GameDev.net
+http://outerra.blogspot.com/2009/08/logarithmic-z-buffer.html     Outerra: Logarithmic Depth Buffer
+https://thxforthefish.com/posts/reverse_z/   Reverse Z Cheatsheet 
+https://erkaman.github.io/posts/tokuyoshi2018_tldr.html   TL;DR of the paper 'Conservative Z-Prepass for Frustum-Traced Irregular Z-Buffers' 
+https://zero-radiance.github.io/post/z-buffer/   Quantitative Analysis of Z-Buffer Precision
+Deferred Rendering
+https://catlikecoding.com/unity/tutorials/rendering/part-15/   Deferred Lights in Unity 
+https://www.gamedevs.org/uploads/deferred-rendering-of-planetary-terrains-with-accurate-atmospheres.pdf   Deferred Rendering of Planetary Terrains with Accurate Atmospheres 
+https://www.gamedevs.org/uploads/deferred-shading-tutorial.pdf   Deferred Shading Tutorial 
+Clustered
+https://www.gamedevs.org/uploads/practical-clustered-shading.pdf  Practical Clustered Shading 
+https://efficientshading.com/2015/01/01/real-time-many-light-management-and-shadows-with-clustered-shading/   Real-Time Many-Light Management and Shadows with Clustered Shading
+https://www.3dgep.com/forward-plus/   Forward vs Deferred vs Forward+ Rendering with DirectX 11 
+https://efficientshading.com/2012/01/01/clustered-deferred-and-forward-shading/   Clustered Deferred and Forward Shading
+http://www.aortiz.me/2018/12/21/CG.html  A Primer On Efficient Rendering Algorithms & Clustered Shading.
+https://themaister.net/blog/2020/01/10/clustered-shading-evolution-in-granite/ Clustered shading evolution in Granite 
+Projective Rendering
+https://www.tomdalling.com/blog/modern-opengl/explaining-homogenous-coordinates-and-projective-geometry/  Explaining Homogeneous Coordinates & Projective Geometry
+AA
+https://blog.codinghorror.com/fast-approximate-anti-aliasing-fxaa/   Fast Approximate Anti-Aliasing (FXAA)
+http://alextardif.com/TAA.html   Temporal Antialiasing Starter Pack 
+AO
+https://iquilezles.org/www/articles/multiresaocc/multiresaocc.htm   multiresolution ambient occlusion - 2012 
+https://www.gamedevs.org/uploads/comparative-study-of-ssao-methods.pdf   A Comparative Study of Screen-Space Ambient Occlusion Methods
+https://www.gamedev.net/articles/programming/graphics/a-simple-and-practical-approach-to-ssao-r2753/   A Simple and Practical Approach to SSAO - Graphics and GPU Programming - GameDev.net
+https://developer.download.nvidia.cn/presentations/2008/SIGGRAPH/HBAO_SIG08b.pdf   Image-Space Horizon-Based Occlusion
+https://iryoku.com/downloads/Practical-Realtime-Strategies-for-Accurate-Indirect-Occlusion.pdf      Practical Realtime Strategies for Accurate Indirect Occlusion
+https://0fps.net/2013/07/03/ambient-occlusion-for-minecraft-like-worlds/   Ambient occlusion for Minecraft-like worlds
+Volumetrics
+	Lights  
+http://www.alexandre-pestana.com/volumetric-lights/  Volumetric lights
+Atmospherics
+https://www.gamedevs.org/uploads/real-time-atmospheric-effects-in-games-revisited.pdf   Real-time Atmospheric Effects in Games Revisited (2007)
+https://software.intel.com/content/www/us/en/develop/articles/ivb-atmospheric-light-scattering.html   IVB Atmospheric Light Scattering
+https://medium.com/community-play-3d/god-rays-whats-that-5a67f26aeac2   God Rays? What’s that?
+https://www.alanzucconi.com/2017/10/10/atmospheric-scattering-1/  Volumetric Atmospheric Scattering - Alan Zucconi
+Clouds
+https://www.guerrilla-games.com/read/the-real-time-volumetric-cloudscapes-of-horizon-zero-dawn  The Real-Time Volumetric Cloudscapes of Horizon Zero Dawn - Guerrilla
+https://www.youtube.com/watch?v=8OrvIQUFptA   FMX2017 Technical Directing Special: Real-time Volumetric Cloud Rendering
+http://patapom.com/topics/Revision2013/Revision%202013%20-%20Real-time%20Volumetric%20Rendering%20Course%20Notes.pdf   Revision 2013 - Real-time Volumetric Rendering Course Notes.pdf
+http://gpupro.blogspot.ca/2015/01/gpu-pro-6-real-time-rendering-of.html   GPU Pro: GPU Pro 6 - Real-time Rendering of Physics-Based Clouds using Precomputed Scattering
+https://www.guerrilla-games.com/read/nubis-authoring-real-time-volumetric-cloudscapes-with-the-decima-engine   Nubis: Authoring Real-Time Volumetric Cloudscapes with the Decima Engine - Guerrilla
+http://vfxmike.blogspot.com/2018/07/dark-and-stormy.html?m=1   Real Time VFX Mike: Dark and Stormy
+https://blog.uhawkvr.com/rendering/rendering-volumetric-clouds-using-signed-distance-fields/  Rendering volumetric clouds using signed distance fields
+https://www.gdcvault.com/play/1027688/The-Real-Time-Volumetric-Superstorms  The Real-Time Volumetric Superstorms of 'Horizon Forbidden West'
+Shadows
+https://www.gamedevs.org/uploads/adaptive-volumetric-shadow-maps.pdf  Adaptive Volumetric Shadow Maps
+https://www.gamedevs.org/uploads/advanced-soft-shadow-mapping-techniques.pdf     Advanced Soft Shadow Mapping Techniques
+https://www.gamedevs.org/uploads/rectilinear-texture-warping-for-fast-adaptive-shadow-mapping.pdf  Rectilinear Texture Warping for Fast Adaptive Shadow Mapping
+https://www.gamedevs.org/uploads/efficient-shadows-from-many-lights.pdf   Efficient Shadows from Many Lights
+https://docs.google.com/presentation/d/1MwJcnSvkAzpT8BuoSqIkzlYLjdA_lBDrt8bW-vcwmDU/edit?usp=sharing   Real-time Shadows 
+https://ciechanow.ski/lights-and-shadows/   Lights and Shadows
+https://panoskarabelas.com/posts/screen_space_shadows/    Screen space shadows
+https://www.gdcvault.com/play/1023518/Advanced-Geometrically-Correct-Shadows-for  Advanced Geometrically Correct Shadows for Modern Game Engines (presented by NVIDIA)
+https://www.hradec.com/ebooks/CGI/RMS_1.0/mtor/rendering/feature-guide/DeepShadows.html   Deep Shadows
+https://documentation.3delightcloud.com/display/3DFM/Pros+and+Cons+of+Depth+vs+Deep+Shadow+Maps   Pros and Cons of Depth vs Deep Shadow Maps 
+PBR
+https://www.gamedevs.org/uploads/realistic-hardware-accelerated-shading-and-lighting.pdf Realistic, Hardware-accelerated Shading and Lighting 
+https://www.gamedevs.org/uploads/physically-based-reflectance-for-games.pdf Physically Physically-Based Reflectance Based Reflectance for Games 
+https://therealmjp.github.io/posts/sss-intro/   An Introduction To Real-Time Subsurface Scattering
+https://0xef.wordpress.com/2020/05/01/physically-based-materials-energy-conservation-and-reciprocity/   Physically-Based Materials – Energy Conservation and Reciprocity
+GI
+https://casual-effects.com/research/McGuire2017LightField/index.html   Real-Time Global Illumination using Precomputed Light Field Probes
+http://www.zyanidelab.com/how-to-add-thousands-of-lights-to-your-renderer/   How to add thousands of lights to your renderer and not die in the process
+http://www.zyanidelab.com/restir-gi-for-specular-bounces/   ReSTIR GI for Specular Bounces
+Water simulation/rendering
+http://blog.mecheye.net/2018/03/deconstructing-the-water-effect-in-super-mario-sunshine/  Deconstructing the water effect in Super Mario Sunshine | Clean Rinse
+https://www.gamedevs.org/uploads/water-flow-in-portal2.pdf   Water Flow in Portal 2
+http://gamedevs.org/uploads/insomniac-water.pdf    Insomniac’s Water Rendering System 
+https://medium.com/@martinRenou/real-time-rendering-of-water-caustics-59cda1d74aa     Real-time rendering of water caustics 
+https://ameye.dev/notes/realtime-caustics/   Rendering realtime caustics 
+Animation
+https://www.gamedevs.org/uploads/beginners-guide-to-dual-quaternions.pdf  A Beginners Guide to Dual-Quaternions
+https://www.gamedevs.org/uploads/skinning-with-dual-quaternions.pdf   Skinning with Dual Quaternions
+https://www.gamedevs.org/uploads/skinned-mesh-and-character-animation-with-directx9.pdf     Skinned Mesh Character Animation with Direct3D 9.0c
+https://takinginitiative.wordpress.com/2020/03/07/an-idiots-guide-to-animation-compression/    An idiot’s guide to animation compression
+Color Science
+ http://www.brucelindbloom.com/index.html?Math.html   Useful Color Equations
+https://agraphicsguy.wordpress.com/2018/11/29/basic-color-science-for-graphics-engineers/   Basic Color Science for Graphics Engineers 
+https://ciechanow.ski/color-spaces/     Color Spaces 
+https://blog.johnnovak.net/2016/09/21/what-every-coder-should-know-about-gamma/    What Every Coder Should Know About Gamma
+Tone mapping
+https://www.cs.utah.edu/docs/techreports/2002/pdf/UUCS-02-001.pdf    Photographic Tone Reproduction for Digital Images - The main Reinhard paper 
+https://mynameismjp.wordpress.com/2010/04/30/a-closer-look-at-tone-mapping/    A Closer Look At Tone Mapping – The Danger Zone 
+http://filmicworlds.com/blog/filmic-tonemapping-operators/    Filmic Tonemapping Operators
+https://toplightco.com/blogs/news/what-s-the-difference-between-luminance-and-illuminance     What's the difference between Luminance and Illuminance?
+https://seenaburns.com/dynamic-range/   Blog on Dynamic Range 
+ https://64.github.io/tonemapping/     Good summary of different tone mapping operators
+Software raytracing
+https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.42.3443&rep=rep1&type=pdf   A Fast Voxel Traversal Algorithm for Ray Tracing 
+https://patapom.com/topics/Revision2013/Revision%202013%20-%20Real-time%20Volumetric%20Rendering%20Course%20Notes.pdf    Revision 2013 - Real-time Volumetric Rendering Course Notes.pdf
+Textures/Filtering
+https://www-ui.is.s.u-tokyo.ac.jp/~takeo/papers/i3dg2001.pdf    Adaptive Unwrapping for Interactive Texture Painting 
+http://themaister.net/blog/2018/08/25/pseudo-bandlimited-pixel-art-filtering-in-3d-a-mathematical-derivation/?utm_source=hackernewsletter&utm_medium=email&utm_term=learn   Pseudo-bandlimited pixel art filtering in 3D – a mathematical derivation – Maister's Graphics Adventures
+
+https://indieburg.com/blog/posts/20200110-mip-map-folding  Mip Map Folding
+https://bartwronski.com/2020/04/14/bilinear-texture-filtering-artifacts-alternatives-and-frequency-domain-analysis/   Bilinear texture filtering – artifacts, alternatives, and frequency domain analysis 
+https://bartwronski.com/2020/05/21/dimensionality-reduction-for-image-and-texture-set-compression/    Dimensionality reduction for image and texture set compression
+https://themaister.net/blog/2020/08/12/compressed-gpu-texture-formats-a-review-and-compute-shader-decoders-part-1/    Compressed GPU texture formats – a review and compute shader decoders 
+https://www.gamedevs.org/uploads/mipmapping-normal-maps.pdf    Mipmapping Normal Maps
+Misc techniques
+http://gamedevs.org/uploads/interactive-order-independent-transparency.pdf   Interactive Order-Independent Transparency 
+https://www.gamedevs.org/uploads/quadtree-displacement-mapping-with-height-blending.pdf    Quadtree Displacement Mapping with Height Blending 
+https://www.gamedevs.org/uploads/detailed-shape-representation-with-parallax-mapping.pdf    Detailed Shape Representation with Parallax Mapping 
+https://www.gamedevs.org/uploads/practical-dynamic-parallax-occlusion-mapping.pdf     Practical Dynamic Parallax Occlusion Mapping Practical Dynamic Parallax Occlusion Mapping 
+https://www.gamedevs.org/uploads/culling-the-battlefield-battlefield3.pdf   Culling the Battlefield in Battlefield 3
+https://caseymuratori.com/blog_0011   The Nebraska Problem 
+https://www.eveonline.com/news/view/re-inventing-the-trails   Re-inventing the trails in EVE 
+https://www.reedbeta.com/blog/hash-functions-for-gpu-rendering/   Hash Functions for GPU Rendering
+https://theorangeduck.com/page/avoiding-shader-conditionals    Avoiding Shader Conditionals
+https://antongerdelan.net/opengl/raycasting.html    Mouse Picking with Ray Casting
+http://john-chapman-graphics.blogspot.com/2013/01/per-object-motion-blur.html   john-chapman-graphics: Per-Object Motion Blur 
+https://www.gamedeveloper.com/legacy/blogs/JoostVanDongen/20180925/327159/Interior_Mapping_rendering_real_rooms_without_geometry.php   Gamasutra: Joost van Dongen's Blog - Interior Mapping: rendering real rooms without geometry
+http://vfxmike.blogspot.com/2018/08/lucky-bioms-lava.html?m=1   Real Time VFX Mike: Lucky Bioms: Lava 
+https://0fps.net/2012/01/14/an-analysis-of-minecraft-like-engines/   An Analysis of Minecraft-like Engines 
+https://0fps.net/2018/02/21/voxel-lighting/   Voxel lighting
+ https://fabiensanglard.net/doom_fire_psx/    How DOOM Fire Was Done
+Rendering snow on the ground    https://mtnphil.wordpress.com/2011/12/29/rendering-snow-on-the-ground/
+https://www.alanzucconi.com/2019/10/08/journey-sand-shader-1/    A Journey Into Journey’s Sand Shader
+http://onrendering.blogspot.com/2011/12/tessellation-on-gpu-curved-pn-triangles.html   Tessellation on the GPU: Curved PN triangles vs Phong tessellation
+https://shadertoyunofficial.wordpress.com/2019/01/02/programming-tricks-in-shadertoy-glsl/    Programming tricks in Shadertoy / GLSL | shadertoy - unofficial 
+https://jamie-wong.com/2014/08/19/metaballs-and-marching-squares/?utm_source=hackernewsletter&utm_medium=email&utm_term=fav   Metaballs and Marching Squares
+https://gist.github.com/patriciogonzalezvivo/670c22f3966e662d2f83    GLSL Noise Algorithms 
+Frame Dissection/Analysis
+ https://de.slideshare.net/philiphammer/dissecting-the-rendering-of-the-surge/    Dissecting the Rendering of The Surge
+https://medium.com/@gordonnl/wind-waker-graphics-analysis-a0b575a31127   Wind Waker Graphics Analysis – Nathan Gordon – Medium
+https://www.gamedevs.org/uploads/rendering-in-battlefield3.pdf   Five Rendering Ideas from Battlefield 3 and Need For Speed: The Run 
+https://www.gamedevs.org/uploads/battlefield-3-terrain.pdf    Terrain in Battlefield 3: A modern, complete and scalable system
+https://www.gamedevs.org/uploads/real-shading-in-unreal-engine-4.pdf    Real Shading in Unreal Engine 4
+https://www.elopezr.com/the-rendering-of-rise-of-the-tomb-raider/   The Rendering of Rise of the Tomb Raider – The Code Corsair
+https://www.elopezr.com/castlevania-lords-of-shadow-2-graphics-study/   The Rendering of Castlevania: Lords of Shadow 2
+https://www.elopezr.com/the-rendering-of-mafia-definitive-edition/   The Rendering of Mafia: Definitive Edition
+https://www.elopezr.com/the-rendering-of-jurassic-world-evolution/   The Rendering of Jurassic World: Evolution
+https://www.elopezr.com/the-rendering-of-middle-earth-shadow-of-mordor/   The Rendering of Middle Earth: Shadow of Mordor – The Code Corsair
+http://morad.in/2019/04/19/under-the-hood-of-shadow-of-the-tomb-raider/   Under the hood of Shadow of the Tomb Raider
+http://morad.in/2019/03/27/observations-about-the-rendering-of-metro-exodus/   Observations about the rendering of Metro: Exodus
+https://alain.xyz/blog/frame-analysis-mk11   Frame Analysis - Mortal Kombat 11 
+https://alain.xyz/blog/frame-analysis-control   Frame Analysis - Control 
+https://alain.xyz/blog/frame-analysis-overwatch    Frame Analysis - Overwatch 
+https://imgeself.github.io/posts/2020-06-19-graphics-study-rdr2/   Graphics Study: Red Dead Redemption 2 
+https://blog.selfshadow.com/publications/s2020-shading-course/patry/slides/index.html   Samurai Shading in Ghost of Tsushima 
+https://simoncoenen.com/blog/programming/graphics/DoomEternalStudy.html   DOOM Eternal - Graphics Study
+http://c0de517e.blogspot.com/2020/12/hallucinations-re-rendering-of.html   Hallucinations re: the rendering of Cyberpunk 2077
+https://www.4a-games.com.mt/4a-dna/in-depth-technical-dive-into-metro-exodus-pc-enhanced-edition   In-Depth Technical Dive into Metro Exodus PC Enhanced Edition 
+https://astralcode.blogspot.com/2018/11/reverse-engineering-rendering-of.html    Reverse engineering the rendering of The Witcher 3 
+Optimizations
+https://www.gamedev.net/articles/programming/graphics/efficient-instancing-in-a-streaming-scenario-r4966/  Efficient Instancing in a Streaming Scenario - Graphics and GPU Programming - GameDev.net 
+https://www.anandtech.com/show/10325/the-nvidia-geforce-gtx-1080-and-1070-founders-edition-review/11   Simultaneous Multi-Projection: Reusing Geometry on the Cheap 
+https://gist.github.com/silvesthu/505cf0cbf284bb4b971f6834b8fec93d#gpu-optimization-for-gamedev   GPU Optimization for GameDev
+https://developer.nvidia.com/blog/optimizing-compute-shaders-for-l2-locality-using-thread-group-id-swizzling/   Optimizing Compute Shaders for L2 Locality using Thread-Group ID Swizzling
+https://interplayoflight.wordpress.com/2020/02/17/ways-to-speedup-pixel-shader-execution/    Ways to Speedup Pixel Shader Execution 
+https://interplayoflight.wordpress.com/2022/01/22/shader-tips-and-tricks/     Shader Tips and Tricks
+Swap chains
+https://bell0bytes.eu/the-swap-chain/    The Swap Chain - By Gilles Bellot 
+https://web.engr.oregonstate.edu/~mjb/vulkan/Handouts/SwapChain.4pp.pdf   The Vulkan Swap Chain - Mike Bailey 
+https://raphlinus.github.io/ui/graphics/gpu/2021/10/22/swapchain-frame-pacing.html   Swapchains and frame pacing
+Fun math
+https://en.wikipedia.org/wiki/Complex_logarithm    Complex logarithm - Wikipedia 
+Inequalities for the homogeneous clipping space:    http://gamedevs.org/uploads/fast-extraction-viewing-frustum-planes-from-world-view-projection-matrix.pdf
+https://www.pyromuffin.com/2018/07/rotating-vector-using-integer-math.html?m=1   Rotating a vector using integer math 
+https://www.reedbeta.com/blog/normals-inverse-transpose-part-1/   Normals and the Inverse Transpose, Part 1
+http://xdpixel.com/decoding-a-projection-matrix/   Decoding A Projection Matrix
+ https://jsantell.com/model-view-projection/   Model View Projection 
+https://jsantell.com/3d-projection/    3D Projection 
+https://apoorvaj.io/alpha-compositing-opengl-blending-and-premultiplied-alpha/    Alpha compositing, OpenGL blending and premultiplied alpha
+https://www.jezzamon.com/fourier/   An Interactive Introduction to Fourier Transforms
+https://ciechanow.ski/cameras-and-lenses/  Cameras and Lenses
+https://joyrok.com/What-Are-SDFs-Anyway   Tech Art Chronicles: What Are SDFs Anwyay? 
+http://www.aclockworkberry.com/shader-derivative-functions/    An introduction to shader derivative functions 
+https://blog.thomaspoulet.fr/uniform-sampling-on-unit-hemisphere/     Uniform Sampling on unit Hemisphere 
+Engine Architecture
+https://www.gamedevs.org/uploads/flexible-rendering-multiple-platforms.pdf   Flexible Rendering for Multiple Platforms 
+https://i.stack.imgur.com/JgrSc.jpg   Relative costs of GPU State Changes
+https://blog.molecular-matters.com/2014/11/06/stateless-layered-multi-threaded-rendering-part-1/   Stateless, layered, multi-threaded rendering – Part 1
+http://realtimecollisiondetection.net/blog/?p=86   Order your graphics draw calls around! 
+https://ubm-twvideo01.s3.amazonaws.com/o1/vault/gdc2015/presentations/Butcher_DestinyEngine_GDC2015_final.pdf   Learning from the Core Engine Architecture of Destiny 
+https://ubm-twvideo01.s3.amazonaws.com/o1/vault/gdc2015/presentations/Gyrling_Christian_Parallelizing_The_Naughty.pdf    Parallelizing the Naughty Dog engine using fibers 
+http://advances.realtimerendering.com/destiny/gdc_2015/Tatarchuk_GDC_2015__Destiny_Renderer_web.pdf  Destiny's Multithreaded Rendering Architecture 
+http://alinloghin.com/articles/command_buffer.html    Command buffers for multi-threaded rendering
+https://jorenjoestar.github.io/post/data_driven_rendering_pipeline/   Data Driven Rendering: Pipelines 
+https://zeux.io/2020/02/27/writing-an-efficient-vulkan-renderer/    Writing an efficient Vulkan renderer 
+https://levelup.gitconnected.com/organizing-gpu-work-with-directed-acyclic-graphs-f3fd5f2c2af3    Organizing GPU Work with Directed Acyclic Graphs 
+https://apoorvaj.io/render-graphs-1/   Render graphs 
+https://themaister.net/blog/2017/08/15/render-graphs-and-vulkan-a-deep-dive/   Render graphs and Vulkan — a deep dive 
+https://therealmjp.github.io/posts/shader-permutations-part1/    The Shader Permutation Problem - Part 1: How Did We Get Here? 
+https://therealmjp.github.io/posts/shader-permutations-part2/   The Shader Permutation Problem - Part 2: How Do We Fix It? 
+GPU Architecture
+https://simonschreibt.de/gat/renderhell/   Render Hell 2.0 
+https://developer.nvidia.com/content/life-triangle-nvidias-logical-pipeline    Life of a triangle - NVIDIA's logical pipeline
+https://gpuopen.com/presentations/2019/nordic-game-2019-triangles-are-precious.pdf   Triangles are Precious - Let's Treat Them with Care 
+https://courses.cs.washington.edu/courses/cse558/11wi/lectures/05_gpuArchShaderCores_BPS_2011.pdf   From'Shader'Code'to'a'Teraflop: How'GPU'Shader'Cores'Work
+https://aras-p.info/texts/files/2018Academy%20-%20GPU.pdf   How does a GPU shader core work? 
+https://miketuritzin.com/post/rendering-particles-with-compute-shaders/   Rendering Particles with Compute Shaders
+https://www.youtube.com/watch?v=eqkAaplKBc4   A Taste of GPU Compute 
+https://fgiesen.wordpress.com/2011/07/09/a-trip-through-the-graphics-pipeline-2011-index/   A trip through the Graphics Pipeline 2011 
+https://traxnet.wordpress.com/2011/07/16/understanding-modern-gpus-1/ Understanding Modern GPUs (I): Introduction 
+http://renderingpipeline.com/graphics-literature/low-level-gpu-documentation/   Low-Level GPU Documentation
+https://doc.lagout.org/electronics/Intel-Graphics-Architecture-ISA-and-microarchitecture.pdf   Intel® Processor Graphics: Architecture & Programming 
+https://anteru.net/blog/2018/intro-to-compute-shaders/index.html  Introduction to compute shaders 
+https://anteru.net/blog/2018/more-compute-shaders/  More compute shaders 
+https://anteru.net/blog/2018/even-more-compute-shaders/   Even more compute shaders 
+https://interplayoflight.wordpress.com/2020/11/11/what-is-shader-occupancy-and-why-do-we-care-about-it/   What is Shader Occupancy and why do we Care About it?
+https://www.gdcvault.com/play/1024045/FrameGraph-Extensible-Rendering-Architecture-in    FrameGraph: Extensible Rendering Architecture in Frostbite 
+https://rastergrid.com/blog/gpu-tech/2021/01/understanding-gpu-caches/   Understanding GPU caches
+https://rastergrid.com/blog/gpu-tech/2021/07/gpu-architecture-types-explained/   GPU architecture types explained 
+https://therealmjp.github.io/posts/breaking-down-barriers-part-1-whats-a-barrier/  Breaking Down Barriers - Part 1: What's a Barrier? 
+Graphics assets
+http://casual-effects.com/data/index.html   McGuire Computer Graphics Archive: Meshes 
+Toys
+https://paveldogreat.github.io/WebGL-Fluid-Simulation/   WebGL Fluid Simulation 
+https://noclip.website/   noclip - A digital museum of video game levels 
+
+https://deadlockempire.github.io/  The Deadlock Empire: Slay dragons, master concurrency! 
+
+
