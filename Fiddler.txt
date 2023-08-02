@@ -1,0 +1,22 @@
+Setting the Proxy for Win32
+After launching Fiddler
+Launch Fiddler so it sets up it's proxy.
+Open an administrator command prompt.
+Enter command: netsh
+This will take you to the "netsh>" prompt
+Enter command: winhttp
+This will take you to the "netsh winhttp>" prompt
+Enter command: show proxy
+You should see something like "Direct access (no proxy server)."
+Enter command: import proxy source=ie
+You should now see the fiddler proxy applied to the entire system.
+Note: This didn't work for me (Haro), netsh still said Direct access (no proxy server). after this command. I had to use set proxy 127.0.0.1:8888 "<-loopback>" (your Fiddler port might not be 8888, check your Fiddler options), per the instructions here: https://www.telerik.com/blogs/using-fiddler-with-winhttp 
+Now launch M:EE, you should see event traffic in Fiddler.
+Make sure to follow the below steps once you are done using Fiddler or else other apps may run into odd connection issues.
+Closing Fiddler
+Keep in mind that while the proxy is applied to the entire system, other apps may run into issues. So when you are done, in your admin command prompt (at the "netsh winhttp>" prompt), enter the command: reset proxy
+
+This will return things back to normal.
+
+
+https://www.telerik.com/blogs/using-fiddler-with-winhttp
